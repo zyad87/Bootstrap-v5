@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>يوتيوبروز</title>
+    <link rel="stylesheet" href="/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="mt-5  bg-light">
+    <div class="layer"></div>
+    <div id="top-menu">
+        <div class="container-fluid">
+    <nav class="navbar rtl fixed-top navbar-expand-lg navbar-light bg-light p-3">
+        <i class="fa-solid fa-bars fa-lg" id="toggler"></i>
+        <b>
+            <a class="navbar-brand ms-3" href="index.HTML">يوتيوبروز 
+                <span class="video-icon"> <i class="fa-regular fa-circle-play"></i></span>
+            </a>
+        </b>
+
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-lg-auto">
+        <li class="nav-item " id="first-list">
+            <a class="nav-link me-3  px-3 ms-1" href="index.HTML">الفيديوهات المقترحة <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link ms-lg-3  px-3 ms-1" href="#">المرفوعة حديثًا</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link  px-3 ms-1" href="QAS.HTML">اسئلة حول الموقع</a>
+        </li>
+        </ul>
+        <div class="d-flex my-2 my-lg-0">
+        <input class="form-control me-sm-2 form-hide" type="search " placeholder="البحث" aria-label="Search">
+        <button onclick="location.href='search.html';" class="btn form-hide btn-outline-primary my-2 my-sm-0 me-3" type="submit">ابحث</button>
+        </div>
+    </div>
+    <i class="fas fa-search me-4 search-icon"></i>
+    <a class="nav-link loge" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">تسجيل الدخول</a>
+    </nav>
+    <input type="search" class="form-control search-input" placeholder="ابحث عن  ...">
+<!-- Modal -->
+<div class="modal fade rtl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">تسجيل الدخول</h5>
+        <button type="button" class="btn-close" id="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                <label for="recipient-name" class="col-form-label">البريد الإلكتروني:</label>
+                <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">كلمة المرور:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+        <a href="">نسيت كلمة المرور</a>
+        <a href=""class='mx-auto' >إنشاء حساب</a>
+        <button type="button" class="btn btn-primary">دخول</button>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="row pt-4">
+    <div id="wrap">
+        <div class="sidebar">
+            <ul class="list-group list-group-flush ps-0">
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-house me-2 purple"></i>الصفحة الرئيسية
+                </a>
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-compass me-2 purple"></i> الفيديوهات المقترحة
+                </a>
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-fire me-2 purple"></i> اسئلة حول الموقع
+                </a>
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-podcast me-2 purple"></i> بث مباشر
+                </a>
+
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-gamepad me-2 purple"></i> ألعاب فيديو
+                </a>
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-futbol me-2 purple"></i> رياضة
+                </a>
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-music me-2 purple"></i> موسيقى
+                </a>
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-circle-play me-2 purple"></i> الاشتراكات
+                </a>
+                <a href="log.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-clock-rotate-left me-2 purple"></i> سجل المشاهدة
+                </a>
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-thumbs-up me-2 purple"></i> فيديوهات أعجبتني
+                </a>
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-clock me-2 purple"></i> المشاهدة لاحقًا
+                </a> 
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-gear me-2 purple"></i> الإعدادات
+                </a>
+                <a href="index.HTML" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-circle-question me-2 purple"></i> مساعدة
+                </a>
+                <a class="list-group-item list-group-item-action" href="https://api.whatsapp.com/send/?phone=966551262599&text&type=phone_number&app_absent=0" target="_blank">
+                    الحقوق محفوظة © 2023   <br>    تصميم و تطوير : ZYAD
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+  <div class="row  mt-5" >
+    <div class="main-block">
+        <h2 class="position-absolute  start-5">الأسئلة الشائعة</h2>
+    </div>
+  </div>
+<div class="row mt-5" >
+    <div class="accordion" id="accordionExample ">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ماهي وظيفه الصفحه؟     
+                   </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                انها مجرد صفحه ل اثبات القدرات والتحكم في اطر العمل   <code>Bootstrap</code>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ماهو إصدار Bootstrap في هاذي الصفحه؟     
+                   </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>انها النسخه</strong><code>5V (5.3x)</code>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                من هو مصمم هاذي الصفحه ؟   
+                     </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>مصمم ومطور الصفحه zyad للتواصل</strong> <a class="text-primary" href="https://api.whatsapp.com/send/?phone=966551262599&text&type=phone_number&app_absent=0" target="_blank">اضغط هنا</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+        </div>
+</div>
+</div> 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</body>
+</html>

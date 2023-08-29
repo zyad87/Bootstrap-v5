@@ -1,0 +1,41 @@
+.channel-page .follow button{
+    color: #fff !important;
+    background-color: #75C2F6 !important;
+}
+.channel-page .video-section .card:hover{
+    transform: translateY(0%);
+}
+#card-title{
+
+        height: 60px;
+        overflow: hidden;
+
+}
+time{
+    font-size: 15px;
+}
+.card .card-title {
+    height: 59px;
+    overflow: hidden;
+}
+.channel-page .social-media{
+    bottom: 10px;
+    left: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px !important;
+}
+@media (max-width: 593px){
+.navbar-light .navbar-nav .nav-link{
+    font-size: 10px !important;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+}
+@media (min-width: 593px){
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 13px;
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+    }

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+#top-menu .bg-light{
+    background-color: #fff !important;
+}
+body{
+    background-color: #fafafa !important;
+    font-family: 'Cairo', sans-serif !important;
+}
+a{
+    color: black;
+    text-decoration: none !important;
+}
+button{
+    background-color: transparent !important;
+    color: #75C2F6 !important;
+    border-color: #75C2F6 !important;
+}button:hover{
+    background-color: #75C2F6 !important;
+    color: #fff !important;
+}
+#top-menu .video-icon{
+    background-color:#75C2F6 ;
+    color: #fff;
+    border-radius: 30px;
+    padding: 3px 13px;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active> .nav-link{
+    color: #fff;
+    background-color: #75C2F6;
+    border-radius:5px ;
+    transition: all 0.3s;
+}
+.navbar  .loge{
+    color: #75C2F6;
+}
+.modal .modal-header .close:hover{
+    color: #75C2F6 !important;
+    background-color: transparent !important;
+
+}
+input.form-control:focus,
+button:focus{
+    box-shadow: none !important;
+}
+.card .card-icons{
+    position: relative;
+}
+time{
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+    color: #fff;
+    background-color: black;
+    padding: 0px 3px;
+
+}
+.card .fa-play{
+    position: absolute;
+    top: 43%;
+    right: 41%;
+    color: #2c3131c7;
+    display: none;
+}
+.card:hover .fa-play{
+    display: inline;
+
+}
+.card:hover{
+    transform: translateY(-.9%);
+}
+.card{
+    transition: transform 0.5s ;
+}
+.card .card-horizontal .card-body p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body{
+    min-width: 0;
+}
+.card .card-title{
+    height: 34px;
+    overflow: hidden;
+}
+#top-menu .fa-bars{
+    cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    z-index: 4;
+    right: -17rem;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+}
+.sidebar .purple{
+    color: #75C2F6;
+}
+.sidebar .list-group-item:hover{
+    color: #fff;
+    background-color: #75C2F6;
+    transition: all 0.5s;
+}
+.sidebar .list-group-item:hover .purple{
+    color: #fff;
+    transition: all 0.5s;
+
+}
+.sidebar .list-group-item{
+    width: 17rem;
+}
+#wrap.toggled .sidebar{
+    right: 0rem;
+}
+.sidebar::-webkit-scrollbar{
+    background-color: rgb(230, 230, 230);
+    width: 8px;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: rgb(179, 179, 179);
+    width: 8px;
+}
+.layer{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 1, 0.705);
+    z-index: 3;
+    display: none;
+}
+
+.navbar .search-icon{
+    color: #75C2F6;
+    cursor: pointer;
+    padding: 8px 8px;
+    position: absolute;
+    top: 23pxx;
+    left: 98px;
+    border-radius:25px ;
+    transition: all 0.5s;
+    display: none;
+}
+.navbar .search-icon:hover{
+color: #fff;
+background-color: #75C2F6;
+}
+.search-input{
+    position: fixed;
+    top: 72px;
+    border: none;
+    padding: 6px 23px;
+    height: 60px;
+    background-color: #efeeee;
+    display: none;
+    z-index: 1;
+    border-radius: 0%;
+    /* margin-right: -15px; */
+}
+.search-input:focus{
+    background-color: #e6e5e5;
+}
+.container-fluid{
+    padding: 0px;
+    overflow: hidden;
+}
+#btn-close:hover{
+    background-color: #fff !important;
+}
+@media (max-width: 991px){
+    #wrap.toggled .sidebar {
+        margin-top: -12px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .navbar .collapse .form-hide{
+        display: none;
+    }
+    .navbar .search-icon{
+        display: inline;
+    }
+
+
+}
+@media (min-width: 1400px) {
+
+    .search-input{
+        display: none !important;
+    }
+}
+

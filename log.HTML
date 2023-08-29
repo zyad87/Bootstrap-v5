@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> السجل | يوتيوبروز</title>
+    <link rel="stylesheet" href="/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/css/log.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="mt-5 ">
+    <div class="layer"></div>
+    <div id="top-menu">
+        <div class="container-fluid">
+            <nav class="navbar rtl fixed-top navbar-expand-lg navbar-light bg-light p-3">
+                <i class="fa-solid fa-bars fa-lg" id="toggler"></i>
+                <b>
+                    <a class="navbar-brand ms-3" href="index.HTML">يوتيوبروز 
+                        <span class="video-icon"> <i class="fa-regular fa-circle-play"></i></span>
+                    </a>
+                </b>
+        
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-lg-auto">
+                <li class="nav-item active">
+                    <a class="nav-link me-3  px-3 ms-1" href="index.HTML">الفيديوهات المقترحة <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-lg-3  px-3 ms-1" href="#">المرفوعة حديثًا</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  px-3 ms-1" href="QAS.HTML">اسئلة حول الموقع</a>
+                </li>
+                </ul>
+                <div class="d-flex my-2 my-lg-0">
+                    <input class="form-control me-sm-2 form-hide" type="search " placeholder="البحث" aria-label="Search">
+                    <button onclick="location.href='search.html';" class="btn form-hide btn-outline-primary my-2 my-sm-0 me-3" type="submit">ابحث</button>
+                    </div>
+            </div>
+            <i class="fas fa-search me-4 search-icon"></i>
+            <a class="nav-link loge" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">تسجيل الدخول</a>
+        </nav>
+            <input type="search" class="form-control search-input" placeholder="ابحث عن  ...">
+        <!-- Modal -->
+        <div class="modal fade rtl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">تسجيل الدخول</h5>
+                <button type="button" class="btn-close" id="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">البريد الإلكتروني:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">كلمة المرور:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <a href="">نسيت كلمة المرور</a>
+                <a href=""class='mx-auto' >إنشاء حساب</a>
+                <button type="button" class="btn btn-primary">دخول</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div id="wrap">
+                <div class="sidebar">
+                    <ul class="list-group list-group-flush ps-0">
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-house me-2 purple"></i>الصفحة الرئيسية
+                        </a>
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-compass me-2 purple"></i> الفيديوهات المقترحة
+                        </a>
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-fire me-2 purple"></i> اسئلة حول الموقع
+                        </a>
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-podcast me-2 purple"></i> بث مباشر
+                        </a>
+        
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-gamepad me-2 purple"></i> ألعاب فيديو
+                        </a>
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-futbol me-2 purple"></i> رياضة
+                        </a>
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-music me-2 purple"></i> موسيقى
+                        </a>
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-circle-play me-2 purple"></i> الاشتراكات
+                        </a>
+                        <a href="log.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-clock-rotate-left me-2 purple"></i> سجل المشاهدة
+                        </a>
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-thumbs-up me-2 purple"></i> فيديوهات أعجبتني
+                        </a>
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-clock me-2 purple"></i> المشاهدة لاحقًا
+                        </a> 
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-gear me-2 purple"></i> الإعدادات
+                        </a>
+                        <a href="index.HTML" class="list-group-item list-group-item-action">
+                            <i class="fa-solid fa-circle-question me-2 purple"></i> مساعدة
+                        </a>
+                        <a class="list-group-item list-group-item-action" href="https://api.whatsapp.com/send/?phone=966551262599&text&type=phone_number&app_absent=0" target="_blank">
+                            الحقوق محفوظة © 2023   <br>    تصميم و تطوير : ZYAD
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</div>
+</div> 
+<div class="history-page pt-5">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 history-right-column">
+            <input class="form-control border-0 my-3" type="search" placeholder="البحث في التاريخ" >
+            <hr>
+            <label class="mb-2">نوع السجل:</label>
+            <div class="list-group list-group-flush pe-0" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active " id="list-home-list" data-bs-toggle="list" href="#list-home" >سجل المشاهدة</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" >سجل البحث</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages">التعليقات</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings">المنتدى</a>
+            </div>
+            <label class="mt-1 mb-2">التاريخ:</label>
+            <div class="list-group list-group-flush pe-0" id="list-tab">
+                <a class="list-group-item list-group-item-action" id="list-home-list" data-bs-toggle="list" href="#list-home">منذ 24 ساعة</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile">منذ 3 أيام</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages">منذ أسبوع</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings">منذ شهر</a>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="card mb-3">
+                            <div class="card-horizontal d-md-flex d-block">
+                                <div class="img-square-wrapper">
+                                    <div class="card-icons">
+                                        <a href="watch.html"> <img class="card-top-image" src="img/تصميم بدون عنوان/3.png" style="height: 100%; width:320px" alt="Card image cap">
+                                        <time>8:13</time>
+                                        <i class="fa-solid fa-play fa-2x"></i>
+                                        </a>
+                                        <i class="fa-solid fa-times remove"></i>
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <a href="watch.html">   <h4 class="card-title">كيف تصبح موظفًا ناجحًا وما هي أسباب الفشل في العمل؟</h4></a>
+                                    <p class="card-text">يعتمد نجاح أي شركة بشكل أساسي على موظفيها، الذين يقومون بمعظم العمليات اليومية، وتحسين مهاراتهم وأدائهم، بما يصب في النهاية في صالح الشركة.</p>
+                                    <small class="text-muted">
+                                        <i class="fas fa-film"></i> <span>20 الف مشاهدة</span> 
+                                        <i class="fa-regular fa-clock"></i> <span>قبل 3 سنوات  </span>
+                                    </small>
+                                    <a href="channel.html" class="channel-img">
+                                    <span class="d-block">   <img src="/img/channels4_profile.jpg" alt="Technoq" class="rounded-circle  ms-1" width="30">
+                                        <span class="card-text"> مرشدك للحياة</span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card mb-3">
+                            <div class="card-horizontal d-md-flex d-block">
+                                <div class="img-square-wrapper">
+                                    <div class="card-icons">
+                                        <a href="watch.html"> <img class="card-top-image" src="img/تصميم بدون عنوان/5.png" style="height: 100%; width:320px" alt="Card image cap">
+                                            <time>15:30</time>
+                                            <i class="fa-solid fa-play fa-2x"></i>
+                                        </a>
+                                        <i class="fa-solid fa-times remove"></i>
+                                        </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <a href="watch.html"><h4 class="card-title">كيفية تعلم البرمجة من الصفر : تتبع و كتابة الاكواد و المتغيرات</h4></a>
+                                    <p>كيف تتعلم البرمجة ؟ سؤال يخطر ببالنا دوما عندما نفكر بالبدء في رحلة في هذا العالم الممتع. فقد أصبحت البرمجة هي المهارة الأكثر طلبًا اليوم،
+                                    </p>
+                                    <small class="text-muted">
+                                        <i class="fas fa-film"></i> <span>5 الأف مشاهدة</span> 
+                                        <i class="fa-regular fa-clock"></i> <span>قبل 7 أشهر </span>
+                                    </small>
+                                    <a href="channel.html" class="channel-img">
+                                        <span class="d-block"></span>  <img src="img/unnamed (2).jpg" alt="Technoq" class="rounded-circle ms-1" width="30">
+                                        <span class="card-text">كيف عربي</span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card mb-3">
+                            <div class="card-horizontal d-md-flex d-block">
+                                <div class="img-square-wrapper">
+                                    <div class="card-icons">
+                                        <a href="watch.html"> <img class="card-top-image" src="img/تصميم بدون عنوان/6.png" style="height: 100%; width:320px" alt="Card image cap">
+                                            <time>16:14</time>
+                                            <i class="fa-solid fa-play fa-2x"></i>
+                                        </a>
+                                        <i class="fa-solid fa-times remove"></i>
+                                            
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <a href="watch.html"><h4 class="card-title">دليلك إلى تعلم الفوتوشوب من الصفر إلى الاحتراف 2023</h4></a>
+                                    <p>تعلم الفوتوشوب من أساسيات الحصول على وظيفة في مجال تصميم الجرافيك والويب، وميزة هامة لمن ينوي العمل في مجال التسويق الإلكتروني
+                                    </p>
+                                    <small class="text-muted">
+                                        <i class="fas fa-film"></i> <span>6 الأف مشاهدة</span> 
+                                        <i class="fa-regular fa-clock"></i> <span>قبل 5 أشهر </span>
+                                    </small>
+                                    <a href="channel.html" class="channel-img">
+                                        <span class="d-block"> <img src="/img/unnamed (1).jpg" alt="Technoq" class="rounded-circle ms-1" width="30">
+                                        <span class="card-text">دروس أونلاين </span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card mb-3">
+                            <div class="card-horizontal d-md-flex d-block">
+                                <div class="img-square-wrapper">
+                                    <div class="card-icons">
+                                        <a href="watch.html"> <img class="card-top-image" src="img/تصميم بدون عنوان/8.png" style="height: 100%; width:320px" alt="Card image cap">
+                                            <time>7:54</time>
+                                            <i class="fa-solid fa-play fa-2x"></i>
+                                        </a>
+                                        <i class="fa-solid fa-times remove"></i>
+                                        </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <a href="watch.html"><h4 class="card-title">أفضل 25 كتاب لتطوير الذات 2023 كتب مفيدة ستغير حياتك</h4></a>
+                                    <p>كتاب Atomic Habits أو العادات الذرية في رأيي هو أفضل كتب تطوير الذات التي يجب قرأتها على أي شخص يسعى لتحسين حياته واكتساب عادات جديدة أو التخلص من عادات سيئة
+                                    </p>
+                                    <small class="text-muted">
+                                        <i class="fas fa-film"></i> <span>4 الأف مشاهدة</span> 
+                                        <i class="fa-regular fa-clock"></i> <span>قبل 5 أشهر </span>
+                                    </small>
+                                    <a href="channel.html" class="channel-img">
+                                        <span class="d-block"><img src="/img/channels4_profile.jpg" alt="Technoq" class="rounded-circle  ms-1" width="30">
+                                        <span class="card-text"> مرشدك للحياة</span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card mb-3">
+                        <div class="card-horizontal d-md-flex d-block">
+                            <div class="img-square-wrapper">
+                                <div class="card-icons">
+                                    <a href="watch.html"> <img class="card-top-image" src="img/تصميم بدون عنوان/7.png" style="height: 100%; width:320px" alt="Card image cap">
+                                        <time>3:44</time>
+                                        <i class="fa-solid fa-play fa-2x"></i>
+                                    </a>
+                                    <i class="fa-solid fa-times remove"></i>                                </div>
+                            </div>
+                            <div class="card-body p-1">
+                                <a href="watch.html">   <h4 class="card-title">ما هو السيرفر Server خادم الويب مكوّناته واستخداماته وأنواعه</h4></a>
+                                <p class="card-text">السيرفر أو الخادم أو المخدم أو المزود كلها مسميات تم ترجمتها من الكلمة الإنجليزية Server، والسيرفر هو عبارة عن جهاز حاسوب / كمبيوتر</p>
+                                <small class="text-muted">
+                                    <i class="fas fa-film"></i> <span>8 الأف مشاهدة</span> 
+                                    <i class="fa-regular fa-clock"></i> <span>قبل10 أشهر </span>
+                                </small>
+                                <a href="channel.html" class="channel-img">
+                                    <span class="d-block"> <img src="/img/unnamed.jpg" alt="Technoq" class="rounded-circle  ms-1" width="30">
+                                    <span class="card-text">هل تعلم</span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card mb-3">
+                        <div class="card-horizontal d-md-flex d-block">
+                            <div class="img-square-wrapper">
+                                <div class="card-icons">
+                                    <a href="watch.html"> <img class="card-top-image" src="img/تصميم بدون عنوان/9.png" style="height: 100%; width:320px" alt="Card image cap">
+                                    <time>5:34</time>
+                                    <i class="fa-solid fa-play fa-2x"></i>
+                                </a>
+                                <i class="fa-solid fa-times remove"></i>                                </div>
+                            </div>
+                            <div class="card-body p-1">
+                                <a href="watch.html">   <h4 class="card-title">افضل تخصصات في جامعه جدة - في كلية ألاعمال 2023</h4></a>
+                                <p class="card-text">تعد جامعة جدة من أهم الجامعات الحكومية الموجودة في المملكة العربية السعودية، تضم عدد كبير من التخصصات والكليات التي تناسب كل الطلاب</p>
+                                <small class="text-muted">
+                                    <i class="fas fa-film"></i> <span>7 الأف مشاهدة</span> 
+                                    <i class="fa-regular fa-clock"></i> <span>قبل 6 أشهر </span>
+                                </small>
+                                <a href="channel.html" class="channel-img">
+                                    <span class="d-block">  <img src="/img/unnamed (1).jpg" alt="Technoq" class="rounded-circle  ms-1" width="30">
+                                    <span class="card-text">دروس أونلاين </span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card mb-3">
+                        <div class="card-horizontal d-md-flex d-block">
+                            <div class="img-square-wrapper">
+                                <div class="card-icons">
+                                    <a href="watch.html"> <img class="card-top-image" src="/img/33fe3597-e326-4a75-85ff-2edd6deb21ce-cover.png" style="height: 100%; width:320px" alt="Card image cap">
+                                        <time>9:20</time>
+                                        <i class="fa-solid fa-play fa-2x"></i>
+                                    </a>
+                                    <i class="fa-solid fa-times remove"></i>
+                                </div>
+                            </div>
+                            <div class="card-body p-1">
+                                <a href="watch.html">   <h4 class="card-title">كيف تقوم بتصميم من خلال BOOTSTRAP  بشكل سريع وسهل</h4></a>
+                                <p class="card-text">بوتستراب Bootstrap هو اشهر اطار عمل خاص بتصميم المواقع الالكترونية، حيث يستخدمه الكثير من المبرمجين في تصميم مواقعهم لانه يوفر الكثير من الجهد و العناء</p>
+                                <small class="text-muted">
+                                    <i class="fas fa-film"></i> <span>3 الأف مشاهدة</span> 
+                                    <i class="fa-regular fa-clock"></i> <span>قبل 9 أشهر </span>
+                                </small>
+                                <a href="channel.html" class="channel-img">
+                                    <span class="d-block"><img src="img/unnamed (2).jpg" alt="Technoq" class="rounded-circle  ms-1" width="30">
+                                    <span class="card-text">كيف عربي</span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card mb-3">
+                        <div class="card-horizontal d-md-flex d-block">
+                            <div class="img-square-wrapper">
+                                <div class="card-icons">
+                                    <a href="watch.html"> <img class="card-top-image" src="img/تصميم بدون عنوان/10.png" style="height: 100%; width:320px" alt="Card image cap">
+                                    <time>6:27</time>
+                                    <i class="fa-solid fa-play fa-2x"></i>
+                                </a>
+                                <i class="fa-solid fa-times remove"></i>
+                                </div>
+                            </div>
+                            <div class="card-body p-1">
+                                <a href="watch.html">   <h4 class="card-title">معلومات عن برج الساعة في مكة : 20 معلومة لا تعرفها عن ساعة مكة</h4></a>
+                                <p class="card-text">يبلغ ارتفاع أطول برج مزين بساعة مكة الملكية 601 مترًا فوق سطح الأرض، مما يجعله أحد أطول عشرة ناطحات سحاب في العالم.</p>
+                                <small class="text-muted">
+                                    <i class="fas fa-film"></i> <span>6 الأف مشاهدة</span> 
+                                    <i class="fa-regular fa-clock"></i> <span>قبل 3 أشهر </span>
+                                </small>
+                                <a href="channel.html" class="channel-img">
+                                    <span class="d-block">  <img src="/img/unnamed.jpg" alt="Technoq" class="rounded-circle  ms-1" width="30">
+                                    <span class="card-text">هل تعلم</span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+    <script src="js/log.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</body>
+</html>
